@@ -1,5 +1,4 @@
 {
-  "homepage": "https://github.com/wee08/Agency-ai.git",
   "name": "agency-ai",
   "private": true,
   "version": "0.0.0",
@@ -8,21 +7,14 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
-    "gh-pages": "^6.3.0",
     "motion": "^12.23.26",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-hot-toast": "^2.6.0",
-    "react-router": "^7.11.0",
     "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
@@ -38,7 +30,5 @@
   },
   "overrides": {
     "vite": "npm:rolldown-vite@7.2.5"
-  },
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+  }
 }
